@@ -15,9 +15,6 @@ function bubble(array) {
   return array;
 }
 
-console.log(bubble([5, 1, 4, 2, 8 ]));
-
-
 function mySubstrings(str) {
   var subs = [];
   for (var i = 0; i < str.length; i++) {
@@ -27,5 +24,3 @@ function mySubstrings(str) {
   }
   return subs;
 }
-
-console.log(mySubstrings("cat"));

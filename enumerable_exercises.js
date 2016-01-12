@@ -8,8 +8,6 @@ function multByTwo(num) {
   return (num * 2);
 }
 
-myEach([1, 2, 3, 4], multByTwo);
-
 function myMap(array, func) {
   var mapped = [];
 
@@ -24,9 +22,6 @@ function addNums(i, j) {
   return i + j;
 }
 
-
-console.log(myMap([1, 2, 5, 3, 7], multByTwo));
-
 function myInject(array, fun) {
   var accum = array[0];
 
@@ -37,5 +32,3 @@ function myInject(array, fun) {
   });
   return accum;
 }
-
-console.log(myInject([1, 2, 3], addNums));
